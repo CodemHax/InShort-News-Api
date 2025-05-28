@@ -15,11 +15,7 @@ A high-performance async FastAPI wrapper for fetching news from Inshorts.com wit
 ## 📋 Table of Contents
 
 - [Installation](#installation)
-- [Quick Start](#quick-start)
 - [API Endpoints](#api-endpoints)
-- [Usage Examples](#usage-examples)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## 🛠️ Installation
@@ -42,9 +38,6 @@ pip install -r requirements.txt
 # Run the application
 uvicorn main:app --reload --port 8000
 ```
-
-## Quick Start
-[Content for Quick Start]
 
 ## API Endpoints
 
@@ -214,15 +207,6 @@ In case of errors (e.g., invalid input, server issues), the API returns a JSON r
     *   `500 Internal Server Error`: For unexpected server-side issues.
 
 You can access the interactive API documentation (Swagger UI) at `/docs` and ReDoc at `/redoc` when the application is running.
-
-## Usage Examples
-[Content for Usage Examples]
-
-## Configuration
-[Content for Configuration]
-
-## Contributing
-[Content for Contributing]
 
 ## License
 [Content for License]
