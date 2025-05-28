@@ -8,8 +8,6 @@ A high-performance async FastAPI wrapper for fetching news from Inshorts.com wit
 - **Concurrent Processing**: Fetch multiple news categories simultaneously
 - **FastAPI Integration**: Auto-generated interactive API documentation
 - **Rate Limiting Ready**: Built-in support for request limiting and throttling
-- **Error Handling**: Comprehensive error responses with detailed logging
-- **Docker Support**: Ready for containerized deployment
 - **CORS Enabled**: Cross-origin request support for web applications
 - **Input Validation**: Pydantic models ensure data integrity
 - **Health Monitoring**: Built-in health check endpoints
