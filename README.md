@@ -96,7 +96,7 @@ The API provides the following endpoints:
           "limits": {
             "max_articles_per_request": 100,
             "max_categories_per_request": 10,
-            "concurrent_request_limit": 20 // Assuming NewsConfig.MAX_CONCURRENT_REQUESTS is 20
+            "concurrent_request_limit": 20 
           }
         }
         ```
@@ -145,7 +145,6 @@ The API provides the following endpoints:
               "image_url": "http://example.com/image.jpg",
               "timestamp": "Article Timestamp"
             }
-            // ... more articles
           ],
           "error": null,
           "total_articles": 10,
@@ -166,21 +165,21 @@ The API provides the following endpoints:
             "business": {
               "success": true,
               "category": "business",
-              "data": [ /* articles */ ],
+              "data": [ ],
               "error": null,
-              "total_articles": 5 // example
+              "total_articles": 5 
             },
             "sports": {
               "success": true,
               "category": "sports",
-              "data": [ /* articles */ ],
+              "data": [ ],
               "error": null,
-              "total_articles": 7 // example
+              "total_articles": 7
             }
-            // ... more categories
+        
           },
           "timestamp": "YYYY-MM-DD HH:MM:SS UTC",
-          "total_categories": 2 // example
+          "total_categories": 2 
         }
         ```
 
