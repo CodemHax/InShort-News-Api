@@ -14,6 +14,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
+
 class NewsResponse(BaseModel):
     success: bool
     category: str
@@ -295,7 +296,6 @@ async def not_found_handler(request, exc):
     )
 
 
-
 @app.exception_handler(500)
 async def internal_error_handler(request, exc):
     return JSONResponse(
@@ -308,3 +308,6 @@ async def internal_error_handler(request, exc):
     )
 
 
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
