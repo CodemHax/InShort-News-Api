@@ -295,6 +295,7 @@ async def not_found_handler(request, exc):
     )
 
 
+
 @app.exception_handler(500)
 async def internal_error_handler(request, exc):
     return JSONResponse(
