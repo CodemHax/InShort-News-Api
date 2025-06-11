@@ -114,7 +114,6 @@ async def get_categories():
             "sports",
             "technology",
             "entertainment",
-            "health",
             "science",
             "politics",
             "world"
